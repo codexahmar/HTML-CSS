@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(59, 30, 87);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+.logo a i {
+  color: white;
+  height: 20px;
+  width: 10px;
+}
+.btn button {
+  background-color: #03a9f4;
+  padding: 8px;
+  border: none;
+  border-radius: 9px;
+  width: 90px;
+  font-size: 15px;
+}
+.heading h1 {
+  margin-left: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+.para p {
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-bottom: 35px;
+  font-size: 17px;
+}
+.container2 {
+  margin-left: 23px;
+}
+
+.container3 {
+  display: flex;
+}
+
+.textbar input {
+  padding: 10px;
+  margin-left: 20px;
+  width: 150px;
+  color: black;
+  border-radius: 13px;
+  border: none;
+}
+.btn2 button {
+  color: black;
+  background-color: rgb(152, 255, 49);
+  padding: 10px;
+  border-radius: 9px;
+  border: none;
+  width: 120px;
+}
+.pic img {
+  width: 400px;
+  position: relative;
+  left: 170%;
+  bottom: 245px;
+}
+.btninput {
+  display: flex;
+  gap: 10px;
+}

@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: antiquewhite;
+   
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 15px;
+    list-style: none;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+.login button{
+    
+    padding: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-left: 400px;
+    background-color: green;
+    width: 100px;
+
+}
+
+.btn button {
+    background-color: green;
+    padding: 13px;
+    color: white;
+    border: none;
+    margin-top: 3px;
+    margin-right: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 25px;
+}
+
+.logo {
+    font-size: 50px;
+    width: 186px;
+    padding: 13px;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 15px;
+    list-style: none;
+    position: relative;
+    right: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    opacity: 0.3;
+}
+
+.pic img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.heading h2{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    text-align: center;
+    color: white;
+    font-size: 69px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: serif;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+}
+.container3{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+}
+.content h4{
+    margin: 35px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+    font-size: 17px;
+}
+.para p{
+    padding: 15px;
+    opacity: 0.5;
+}
+.btn1 button{
+    background-color: green;
+    padding: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+.container4{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin-left: 80px;
+}
+.content h4{
+    margin: 35px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+    font-size: 17px;
+}
+.para p{
+    padding: 15px;
+    opacity: 0.5;
+}
+.btn1 button{
+    background-color: green;
+    padding: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+.container5{
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin-left: 80px;
+}
+.content h4{
+    margin: 35px;
+    margin-bottom: 0px;
+    opacity: 0.7;
+    font-size: 17px;
+}
+.para p{
+    padding: 15px;
+    opacity: 0.5;
+}
+.btn1 button{
+    background-color: green;
+    padding: 13px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+
+

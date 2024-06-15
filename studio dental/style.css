@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;1,100;1,200;1,400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: fixed;
+  top: 0px;
+  min-width: 100%;
+  background-color: #231f20;
+}
+
+.nav-container {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-inline: 20px;
+  padding: 0px 60px;
+}
+
+.logo {
+  width: 55%;
+}
+
+.logo img {
+  position: relative;
+  float: left;
+  width: 15%;
+  text-decoration: none;
+  color: #333333;
+}
+
+.image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.nav-bar {
+  display: flex;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 75px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.login-btn button {
+  margin-top: 10px;
+  width: 220%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #addbc6;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #231f20;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  padding-top: 5%;
+  padding-left: 5%;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+ background-image: url(./images/mainpic.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.heading1 {
+  max-width: 40%;
+  font-family: "Playfair Display", sans-serif;
+  color: #addbc6;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.para1 {
+  width: 35%;
+  margin-bottom: 80px;
+  font-family: Lato, sans-serif;
+  color: #fff;
+}
+.book-online {
+  margin-top: 0px;
+  padding: 10px 40px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #addbc6;
+  border-radius: 20px;
+  background-color: rgba(81, 81, 81, 0.2);
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  background-clip: border-box;
+}
+.para2 {
+  width: auto;
+  max-width: 60%;
+  margin-top: 15px;
+  align-self: flex-start;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.number {
+  color: green;
+}
+.container2 {
+  display: flex;
+  height: 100vh;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  background-color: #231f20;
+  margin-bottom: -30px;
+}
+
+.sales-image {
+  width: 100%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+img {
+  max-width: 100%;
+}
+.sales-headline1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", sans-serif;
+  color: #addbc6;
+  font-weight: 500;
+}
+.sales-paragraph {
+  max-width: 70%;
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 400;
+}
+.container3 {
+  display: flex;
+  height: 100vh;
+  padding-left: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: auto;
+  background-color: #231f20;
+  background-image: 
+    url(./images/studiodental.png);
+  background-position: 0px 0px;
+  background-size: cover;
+}
+.last-button {
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border: 2px solid #addbc6;
+  border-radius: 20px;
+  background-color: rgba(81, 81, 81, 0.2);
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400px;
+}
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+    background-color: bisque;
+    padding: 40px;
+}
+.left a{
+    color: black;
+}
+.right button{
+    border-radius: 23px;
+    padding: 15px;
+    margin-left: 15px;
+    background-color: bisque;
+}
+@media only screen and (max-width:1024px){
+    .container2{
+        margin-bottom: -75px;
+    }
+    .logo img{
+        width: 35%;
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .nav-bar{
+        display: none;
+    }
+    .login-btn button{
+        display: none;
+    }
+    .logo img {
+        margin-left: -100px;
+    }
+    .heading1 {
+        max-width: 58%;
+        font-size: 36px;    
+    }
+    .para1 {
+        width: 51%;
+    }
+    .container2{
+        display: flex;
+      
+        margin-bottom: -125px;
+    }
+    img {
+        max-width: 125%;
+    }
+   
+      
+    .sales-content{
+        margin-left: 45px;
+    }
+    .sales-paragraph {
+        font-size: 12px;
+    }
+    .sales-headline1{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:425px){
+    .logo img {
+        width: 45%;
+        margin-left: -85px;
+    }
+    .container2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .right button {
+        padding: 9px;
+        margin-left: 5px;
+        margin-top: 15px;
+        
+    }
+    img{
+        margin-top: 30px;
+        max-width: 100%;
+    }
+    .sales-paragraph {
+        margin-bottom: 145px;
+        font-size: 9px;
+    }
+    .last-button{
+        font-size: 12px;
+    }
+}
